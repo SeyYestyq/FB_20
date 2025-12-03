@@ -1,0 +1,71 @@
+.quick-actions {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quick-actions h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.actions-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.action-btn {
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 200px;
+}
+
+.action-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.action-btn:active {
+  transform: translateY(0);
+}
+
+.complete-all {
+  background-color: #45b7d1;
+  color: white;
+}
+
+.complete-all:hover {
+  background-color: #3a9ab8;
+}
+
+.reset-all {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.reset-all:hover {
+  background-color: #e55555;
+}
+
+.random-next {
+  background-color: #4ecdc4;
+  color: white;
+}
+
+.random-next:hover {
+  background-color: #3eb8af;
+}

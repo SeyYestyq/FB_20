@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+/* Стили для фильтров */
+.filters {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filters h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+}
+
+.filter-btn.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+  font-weight: bold;
+}
+
+/* Стили для списка технологий */
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
